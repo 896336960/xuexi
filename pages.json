@@ -20,6 +20,9 @@
 		},{
 			"path" : "pages/Mv/Mv",
 			"style" : {}
+		}, {
+			"path": "pages/GeDan/GeDan",
+			"style": {}
 		}],
 	"globalStyle": {
 		"navigationStyle": "custom",

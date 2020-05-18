@@ -14,7 +14,7 @@
 				<uni-icons type="search" size="40"></uni-icons>
 				<text>电台</text>
 			</view>
-			<view class="music-item">
+			<view class="music-item" @click="toGeDad">
 				<uni-icons type="search" size="40"></uni-icons>
 				<text>歌单</text>
 			</view>
@@ -69,7 +69,13 @@
 			}
 		},
 		methods: {
-			
+			toGeDad () {
+				uni.navigateTo({
+					url: "../GeDan/GeDan",
+					 animationType: 'fade-in',
+					 animationDuration: 200
+				})
+			}
 		}
 	}
 </script>

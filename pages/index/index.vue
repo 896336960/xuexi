@@ -39,7 +39,12 @@ import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
 import uniSegmentedControl from "@/components/uni-segmented-control/uni-segmented-control.vue"
 import mulice from "../mulice/mulice"
 	export default {
-		components: {uniDrawer, uniNavBar, uniSegmentedControl, mulice},
+		components: {
+			uniDrawer,
+			uniNavBar,
+			uniSegmentedControl,
+			mulice
+		},
 		data() {
 			return {
 				User: [],
